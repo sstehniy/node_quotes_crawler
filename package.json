@@ -1,5 +1,5 @@
 {
-  "name": "random-js-challanges-discord-bot",
+  "name": "node_quotes_crawler",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,10 +7,7 @@
     "lint": "eslint . --ext .ts",
     "format": "prettier --write \"**/*.{ts,json}\"",
     "lint:fix": "npm run lint -- --fix",
-    "dev:bot": "nodemon --exec ts-node bot/index.ts",
-    "dev:crawler": "nodemon --exec ts-node crawler/index.ts",
     "crawler": "ts-node crawl_quotes",
-    "dev": "npm-run-all -p -l dev:*"
   },
   "repository": {
     "type": "git",
