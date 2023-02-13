@@ -1,1 +1,27 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
 node_modules/
+
+# IDEs and editors
+.idea
+.vscode
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Config files
+*.conf
+*.ini
+*.lock
+
+# Build artifacts
+dist
+
+.env
